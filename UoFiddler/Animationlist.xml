@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Graphics>
+  <!--Entries in Mob tab-->
+  <!--Name=Displayed name-->
+  <!--body=Graphic-->
+  <!--type=0:Monster, 1:Sea, 2:Animal, 3:Human/Equipment-->
+  <Mob name="  1 (Глаз)" body="1" type="0" />
+  <Mob name="  2 (Крысолюд_оборотень)" body="2" type="0" />
+  <Mob name="  3 (Крысолюд_боец)" body="3" type="0" />
+  <Mob name="  4 (Крысолюд_служитель)" body="4" type="0" />
+  <Mob name="  5 (Крысолюд_пророк)" body="5" type="0" />
+  <Mob name="  6 (Троль_лесной)" body="6" type="0" />
+  <Mob name="  7 (Троль_лесной)" body="7" type="0" />
+  <Mob name="  8 (Троль_болотный)" body="8" type="0" />
+  <Mob name="  9 (Троль_трясиный)" body="9" type="0" />
+  <Mob name=" 10 (Троль_пещерный)" body="10" type="0" />
+  <Mob name=" 11 (Троль_ледянной)" body="11" type="0" />
+  <Mob name=" 12 (Минотавр)" body="12" type="0" />
+  <Mob name=" 13 ()" body="13" type="0" />
+  <Mob name=" 14 ()" body="14" type="0" />
+  <Mob name=" 15 (Гоблин_наездник)" body="15" type="0" />
+  <Mob name=" 16 (Гоблин_наездник)" body="16" type="0" />
+  <Mob name=" 17 (Гоблин_воин)" body="17" type="0" />
+  <Mob name=" 18 (Гоблин_лучник)" body="18" type="0" />
+  <Mob name=" 19 (Гоблин_воин)" body="19" type="0" />
+  <Mob name=" 20 (Гоблин_лучник)" body="20" type="0" />
+  <Mob name=" 21 (Гоблин_вожак)" body="21" type="0" />
+  <Mob name=" 22 (Гоблин_шаман)" body="22" type="0" />
+  <Mob name=" 23 (Орк_воин)" body="23" type="0" />
+  <Mob name=" 24 (Орк_лучник)" body="24" type="0" />
+  <Mob name=" 25 (Орк_воин)" body="25" type="0" />
+  <Mob name=" 26 (Орк_лучник)" body="26" type="0" />
+  <Mob name=" 27 (Орк_шаман)" body="27" type="0" />
+  <Mob name=" 28 (Орк_воин)" body="28" type="0" />
+  <Mob name=" 29 (Орк_шаман)" body="29" type="0" />
+  <Mob name=" 30 (Хобгоблин)" body="30" type="0" />
+  <Mob name=" 31 (Хобгоблин)" body="31" type="0" />
+  <Mob name=" 32 (Хобгоблин_вожак)" body="32" type="0" />
+  <Mob name=" 33 (Хобгоблин_лидер)" body="33" type="0" />
+
+  <Mob name="602 (Ходячий_мертвец)" body="602" type="0" />
+
+  <Mob name="634 (Крысолюд)" body="634" type="0" />
+  <Mob name="635 (Крысолюд)" body="635" type="0" />
+  <Mob name="636 (Крысолюд)" body="636" type="0" />
+
+  <Mob name="645 (Скелет)" body="645" type="0" />
+  <Mob name="646 (Скелет)" body="646" type="0" />
+
+  <Mob name="760 (Летучая_мышь)" body="760" type="0" />
+
+  <Mob name="790 (Скелет_воин)" body="790" type="0" />
+
+  <Mob name="800 (Лошадь)" body="800" type="2" />
+  <Mob name="804 (Лошадь)" body="804" type="2" />
+  
+  <Mob name="815 (Ужасная_крыса)" body="815" type="2" />
+  
+  <Mob name="824 (Лошадь)" body="824" type="2" />
+  <Mob name="825 (Лошадь)" body="825" type="2" />
+
+  <Mob name="831 (Крыса)" body="831" type="2" />
+
+  <Mob name="854 (Скелет)" body="854" type="0" />
+
+  <Mob name="861 (Серая_крыса)" body="861" type="2" />
+  <Mob name="862 (Птица_чайка)" body="862" type="2" />
+  <Mob name="863 (Птица_стервятник)" body="863" type="2" />
+  <Mob name="864 (Птица_орел)" body="864" type="2" />
+
+  <Equip name=" 400 (Тело человека [муж])" body="1000" type="3" />
+  <Equip name=" 401 (Тело человека [жен])" body="1001" type="3" />
+  <Equip name=" 605 (Тело эльфа [муж])" body="1002" type="3" />
+  <Equip name=" 606 (Тело эльфа [жен])" body="1003" type="3" />
+
+ 
+</Graphics>
+

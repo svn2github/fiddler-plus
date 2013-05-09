@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{01DCD56D-76BB-4DC1-87EF-6D1F16DE2E42}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GuiControls</RootNamespace>
+    <AssemblyName>GuiControls</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\_build\uoFiddler\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\_build\uoFiddler\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\_build\uoFiddler\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\..\_build\uoFiddler\GuiControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\..\..\_build\uoFiddler\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\..\_build\uoFiddler\GuiControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\_build\uoFiddler\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\..\_build\uoFiddler\GuiControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\..\..\_build\uoFiddler\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\..\_build\uoFiddler\GuiControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppControl\AppControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AviFile\AudioStream.cs" />
+    <Compile Include="AviFile\Avi.cs" />
+    <Compile Include="AviFile\AviManager.cs" />
+    <Compile Include="AviFile\AviPlayer.cs" />
+    <Compile Include="AviFile\AviStream.cs" />
+    <Compile Include="AviFile\EditableVideoStream.cs" />
+    <Compile Include="AviFile\VideoStream.cs" />
+    <Compile Include="ButtonBar\Control\BarItem.cs" />
+    <Compile Include="ButtonBar\Control\ButtonBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonBar\Control\ButtonBar.Overrides.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonBar\Control\ButtonBar.Properties.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ButtonBar\Control\CollectionChangedHandler.cs" />
+    <Compile Include="ButtonBar\Control\CollectionChangingHandler.cs" />
+    <Compile Include="ButtonBar\Control\CollectionClearingHandler.cs" />
+    <Compile Include="ButtonBar\Control\ItemChangeHandler.cs" />
+    <Compile Include="ButtonBar\Control\ItemChangingHandler.cs" />
+    <Compile Include="ButtonBar\Design\Attributes\ImagePropertyAttribute.cs" />
+    <Compile Include="ButtonBar\Design\Attributes\MinMaxAttribute.cs" />
+    <Compile Include="ButtonBar\Design\Designer\ButtonBarDesigner.cs" />
+    <Compile Include="ButtonBar\Design\Editors\AppearanceEditor.cs" />
+    <Compile Include="ButtonBar\Design\Editors\GradientAngleEditor.cs" />
+    <Compile Include="ButtonBar\Design\Editors\ImageListIndexEditor.cs" />
+    <Compile Include="ButtonBar\Design\Editors\RangeEditor.cs" />
+    <Compile Include="ButtonBar\Design\Entity\ColorPair.cs" />
+    <Compile Include="ButtonBar\Design\Entity\ColorSchemeDefinition.cs" />
+    <Compile Include="ButtonBar\Design\Entity\CornerShape.cs" />
+    <Compile Include="ButtonBar\Design\Entity\DrawBackGroundEventArgs.cs" />
+    <Compile Include="ButtonBar\Design\Entity\DrawItemsEventArgs.cs" />
+    <Compile Include="ButtonBar\Design\Entity\HitTestInfo.cs" />
+    <Compile Include="ButtonBar\Design\Entity\ThemeProperty.cs" />
+    <Compile Include="ButtonBar\Design\Enums\AppearanceAction.cs" />
+    <Compile Include="ButtonBar\Design\Enums\ColorScheme.cs" />
+    <Compile Include="ButtonBar\Design\Enums\CornerType.cs" />
+    <Compile Include="ButtonBar\Design\Enums\DefaultBool.cs" />
+    <Compile Include="ButtonBar\Design\Enums\HitArea.cs" />
+    <Compile Include="ButtonBar\Design\Enums\ImageAlignment.cs" />
+    <Compile Include="ButtonBar\Design\Enums\ItemImageAlignment.cs" />
+    <Compile Include="ButtonBar\Design\Enums\State.cs" />
+    <Compile Include="ButtonBar\Design\Generics\GenericCancelEventArgs.cs" />
+    <Compile Include="ButtonBar\Design\Generics\GenericChangeEventArgs.cs" />
+    <Compile Include="ButtonBar\Design\Generics\GenericClickEventArgs.cs" />
+    <Compile Include="ButtonBar\Design\Generics\GenericCollection.cs" />
+    <Compile Include="ButtonBar\Design\Generics\GenericConverter.cs" />
+    <Compile Include="ButtonBar\Design\Generics\GenericEventArgs.cs" />
+    <Compile Include="ButtonBar\Design\Generics\ReadOnlyConverter.cs" />
+    <Compile Include="ButtonBar\Design\Layout\Appearance.cs" />
+    <Compile Include="ButtonBar\Design\Layout\AppearanceBar.cs" />
+    <Compile Include="ButtonBar\Design\Layout\AppearanceBorder.cs" />
+    <Compile Include="ButtonBar\Design\Layout\AppearanceItem.cs" />
+    <Compile Include="ButtonBar\Design\Layout\AppearenceText.cs" />
+    <Compile Include="ButtonBar\Design\Utility\PaintUtility.cs" />
+    <Compile Include="ButtonBar\Design\Utility\UXTHEME.cs" />
+    <Compile Include="ButtonBar\Resources.Designer.cs" />
+    <Compile Include="CollapsibleSplitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CollapsibleSplitter.designer.cs">
+      <DependentUpon>CollapsibleSplitter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel.cs" />
+    <Compile Include="ExpandableGridView\TreeGridCell.cs" />
+    <Compile Include="ExpandableGridView\TreeGridEvents.cs" />
+    <Compile Include="ExpandableGridView\TreeGridNode.cs" />
+    <Compile Include="ExpandableGridView\TreeGridNodeCollection.cs" />
+    <Compile Include="ExpandableGridView\TreeGridView.cs" />
+    <Compile Include="FilesListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SynHighlight\RichTextboxHighlighter.cs" />
+    <Compile Include="SynHighlight\SyntaxHighlightDictionary.cs" />
+    <Compile Include="SynHighlight\SyntaxHighlightItem.cs" />
+    <Compile Include="SynHighlight\SyntaxHighlightSegment.cs" />
+    <Compile Include="SynHighlight\SyntaxHighlightSegmentList.cs" />
+    <Compile Include="UndoRedoBuffer\IMemento.cs" />
+    <Compile Include="UndoRedoBuffer\MementoExamples.cs" />
+    <Compile Include="UndoRedoBuffer\UndoRedo.cs" />
+    <Compile Include="XPPanel\BaseColorCollection.cs" />
+    <Compile Include="XPPanel\ColorEditors.cs" />
+    <Compile Include="XPPanel\ColorPair.cs" />
+    <Compile Include="XPPanel\ColorTypeConverters.cs" />
+    <Compile Include="XPPanel\ExtendedColor.cs" />
+    <Compile Include="XPPanel\GradientColor.cs" />
+    <Compile Include="XPPanel\HSLColor.cs" />
+    <Compile Include="XPPanel\ImageCollection.cs" />
+    <Compile Include="XPPanel\ImageCollectionEditor.cs" />
+    <Compile Include="XPPanel\ImageItemCollection.cs" />
+    <Compile Include="XPPanel\ImageMapEditor.cs" />
+    <Compile Include="XPPanel\ImagePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPPanel\ImageSet.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPPanel\ImageSetTypeConverter.cs" />
+    <Compile Include="XPPanel\ItemLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPPanel\RoundedRect.cs" />
+    <Compile Include="XPPanel\StateImageItems.cs" />
+    <Compile Include="XPPanel\TextElementTypeConverter.cs" />
+    <Compile Include="XPPanel\TextLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPPanel\UITypes.cs" />
+    <Compile Include="XPPanel\XPPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPPanel\XPPanelGroup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPPanel\XPPanelTypeConverter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AppControl\AppControl.resx">
+      <DependentUpon>AppControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonBar\Resources.resx" />
+    <EmbeddedResource Include="XPPanel\ImagePanel.resx">
+      <DependentUpon>ImagePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPPanel\ImageSet.resx">
+      <DependentUpon>ImageSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPPanel\ItemLayoutPanel.resx">
+      <DependentUpon>ItemLayoutPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPPanel\TextLayoutPanel.resx">
+      <DependentUpon>TextLayoutPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPPanel\XPPanel.resx">
+      <DependentUpon>XPPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPPanel\XPPanelGroup.resx">
+      <DependentUpon>XPPanelGroup.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\console.png" />
+    <EmbeddedResource Include="Icons\fiddler.png" />
+    <EmbeddedResource Include="Icons\runuo.png" />
+    <EmbeddedResource Include="Icons\mul.files\animations.png" />
+    <EmbeddedResource Include="Icons\mul.files\animdata.png" />
+    <EmbeddedResource Include="Icons\mul.files\cliloc.png" />
+    <EmbeddedResource Include="Icons\mul.files\fonts.png" />
+    <EmbeddedResource Include="Icons\mul.files\gumps.png" />
+    <EmbeddedResource Include="Icons\mul.files\hues.png" />
+    <EmbeddedResource Include="Icons\mul.files\items.png" />
+    <EmbeddedResource Include="Icons\mul.files\landtiles.png" />
+    <EmbeddedResource Include="Icons\mul.files\light.png" />
+    <EmbeddedResource Include="Icons\mul.files\map.png" />
+    <EmbeddedResource Include="Icons\mul.files\multis.png" />
+    <EmbeddedResource Include="Icons\mul.files\multimap.png" />
+    <EmbeddedResource Include="Icons\mul.files\radarcolor.png" />
+    <EmbeddedResource Include="Icons\mul.files\skillgrp.png" />
+    <EmbeddedResource Include="Icons\mul.files\skills.png" />
+    <EmbeddedResource Include="Icons\mul.files\sounds.png" />
+    <EmbeddedResource Include="Icons\mul.files\speech.png" />
+    <EmbeddedResource Include="Icons\mul.files\textures.png" />
+    <EmbeddedResource Include="Icons\mul.files\tiledata.png" />
+    <EmbeddedResource Include="Icons\xp.style.glyph1.png" />
+    <EmbeddedResource Include="Icons\xp.style.glyph2.png" />
+    <EmbeddedResource Include="Icons\xp.style.glyph3.png" />
+    <EmbeddedResource Include="Icons\xp.style.glyph4.png" />
+    <EmbeddedResource Include="Icons\browser\back.png" />
+    <EmbeddedResource Include="Icons\browser\next.png" />
+    <EmbeddedResource Include="Icons\browser\refresh.png" />
+    <EmbeddedResource Include="Icons\browser\favorits.png" />
+    <EmbeddedResource Include="Icons\browser\docs1.png" />
+    <EmbeddedResource Include="Icons\browser\docs2.png" />
+    <EmbeddedResource Include="Icons\browser\mail_new.png" />
+    <EmbeddedResource Include="Icons\browser\mail_reply.png" />
+    <EmbeddedResource Include="Icons\browser\website.png" />
+    <EmbeddedResource Include="Icons\thebox\app.ico" />
+    <EmbeddedResource Include="Icons\thebox\location.editor.ico" />
+    <EmbeddedResource Include="Icons\thebox\region.editor.ico" />
+    <EmbeddedResource Include="Icons\thebox\thebox.gif" />
+    <EmbeddedResource Include="Icons\centred.png" />
+    <EmbeddedResource Include="AppControl\appcontrol.bmp" />
+    <EmbeddedResource Include="Icons\centred\valid.png" />
+    <EmbeddedResource Include="Icons\centred\wrong.png" />
+    <EmbeddedResource Include="Icons\animedit\playbtn.png" />
+    <EmbeddedResource Include="Icons\animedit\background.png" />
+    <EmbeddedResource Include="Icons\animedit\border.png" />
+    <EmbeddedResource Include="Icons\animedit\lock.png" />
+    <EmbeddedResource Include="Icons\animedit\mouse.png" />
+    <EmbeddedResource Include="Icons\animedit\arrow1.png" />
+    <EmbeddedResource Include="Icons\animedit\arrow2.png" />
+    <EmbeddedResource Include="Icons\animedit\arrow3.png" />
+    <EmbeddedResource Include="Icons\animedit\arrow4.png" />
+    <EmbeddedResource Include="Icons\animedit\arrow5.png" />
+    <EmbeddedResource Include="Icons\animedit\move.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\1338924630_download.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\btn.find.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\btn.goto.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\btn.lang.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\btn.menu.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\btn.save.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\btn.tiles.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\data.added.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\data.delete.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\data.edited.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\data.original.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\data.tilename.png" />
+    <EmbeddedResource Include="Icons\cliloc.control\btn.empty.png" />
+    <Content Include="XPPanel\xp.style.glyphs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Установщик Windows 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

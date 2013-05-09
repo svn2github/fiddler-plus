@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Options>
+  <!--ItemSize controls the size of images in items tab-->
+  <ItemSize width="48" height="48" />
+  <!--ItemClip images in items tab shrinked or clipped-->
+  <ItemClip active="True" />
+  <!--CacheData should mul entries be cached for faster load-->
+  <CacheData active="True" />
+  <!--Использовать карты сервера Quintessence?-->
+  <QuintMaps active="True" />
+  <!--Новый размер какт Felucca/Trammel, с шириной 7168?-->
+  <NewMapSize active="False" />
+  <!--UseMapDiff should mapdiff files be used-->
+  <UseMapDiff active="False" />
+  <!--Alternative layout in item/landtile/texture tab?-->
+  <AlternativeDesign active="False" />
+  <!--Use Hashfile to speed up load?-->
+  <UseHashFile active="True" />
+  <!--Should an Update Check be done on startup?-->
+  <UpdateCheck active="False" />
+  <!--Definies the cmd to send Client to loc-->
+  <!--{1} = x, {2} = y, {3} = z, {4} = mapid, {5} = mapname-->
+  <SendCharToLoc cmd="[self set map" args="{4} X {1} Y {2} Z {3}" />
+  <!--Definies the map names-->
+  <MapNames map0="Подземелья" map1="Соссария" map2="Илшенар" map3="unused3" map4="unused4" map5="unused5" />
+  <!--Аккаунт и пароль для подключения к серверу-->
+  <Server account="anonym" password="none" />
+  <!--Настройки работы терминала Telnet-->
+  <Telnet active="True" conl="True" logr="64" />
+  <!--Extern Tools settings-->
+  <!--Loaded Plugins-->
+  <!--
+  <Plugin name="FiddlerPlugin.SendItemPlugin" />
+  -->
+  <!--Pathsettings-->
+  <!--Disabled Tab Views-->
+</Options>
